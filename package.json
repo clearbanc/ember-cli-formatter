@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-formatter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An input formatter ember-cli component for ember using http://firstopinion.github.io/formatter.js/index.html",
   "directories": {
     "doc": "doc",
