@@ -4,7 +4,7 @@ import layout from '../templates/components/formatter-js';
 export default Ember.Component.extend({
   layout: layout,
   tagName: 'input',
-  attributeBindings: ['placeholder', 'style'],
+  attributeBindings: ['type', 'value', 'required', 'readonly', 'disabled', 'placeholder', 'style'],
 
   didInsertElement() {
     this._super(...arguments);
