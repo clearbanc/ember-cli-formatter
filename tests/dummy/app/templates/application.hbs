@@ -1,0 +1,19 @@
+<div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+        <a href="https://github.com/clearbanc/ember-cli-formatter">Fork me on GitHub</a>
+    </div>
+</div>
+<h1>Ember CLI Addon for <a href="http://firstopinion.github.io/formatter.js/index.html">formatter.js</a></h1>
+<section>
+  <h2>Usage Examples</h2>
+  <section>
+    <h3>Credit Card</h3>
+    {{formatter-js pattern="{{9999}}-{{9999}}-{{9999}}-{{9999}}" persistent="true"}}
+  </section>
+  <section>
+    <h3>Phone Number</h3>
+    {{formatter-js pattern="({{999}}) {{999}}-{{9999}}" persistent="true" class="validate" style="background-color: pink;" placeholder="1234567890" id="my-input"}}
+  </section>
+</section>
+
+{{outlet}}
