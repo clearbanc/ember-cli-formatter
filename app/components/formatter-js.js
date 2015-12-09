@@ -1,1 +1,0 @@
-export { default } from 'ember-cli-formatter/components/formatter-js';

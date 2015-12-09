@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import layout from '../templates/components/formatter-js';
+import layout from '../templates/components/input-formatted';
 
 export default Ember.Component.extend({
   layout: layout,

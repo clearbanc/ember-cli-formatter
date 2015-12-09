@@ -9,11 +9,12 @@ An input formatter ember-cli component for ember using [formatter.js](http://fir
 
 Format phone number
 ```hbs
-{{formatter-js pattern="({{999}}) {{999}}-{{999}}"
-               persistent="true"
-               class="validate"
-               style="background-color: pink;"
-               placeholder="1234567890" id="my-input"}}
+{{input-formatted pattern="({{999}}) {{999}}-{{999}}"
+                  persistent="true"
+                  class="validate"
+                  style="background-color: pink;"
+                  placeholder="1234567890"
+                  id="my-input"}}
 ```
 
 ## Demo
