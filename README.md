@@ -5,6 +5,7 @@ An input formatter ember-cli component for ember using [formatter.js](http://fir
 ## Usage
 
 * `npm install --save ember-cli-formatter`
+* `ember g ember-cli-formatter`
 
 Format phone number
 ```hbs
@@ -25,6 +26,7 @@ $ git clone git@github.com:clearbanc/ember-cli-formatter
 $ cd ember-cli-formatter
 # install dependencies
 $ npm install && bower install
+$ ember g ember-cli-formatter
 # fire up local server
 $ ember serve
 ```
