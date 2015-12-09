@@ -1,9 +1,6 @@
 import Ember from 'ember';
-import layout from '../templates/components/input-formatted';
 
-export default Ember.Component.extend({
-  layout: layout,
-  tagName: 'input',
+export default Ember.TextField.extend({
   attributeBindings: ['type', 'value', 'required', 'readonly', 'disabled', 'placeholder', 'style'],
 
   didInsertElement() {
